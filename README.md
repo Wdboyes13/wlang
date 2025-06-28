@@ -9,7 +9,7 @@ __For an example check test.wlang__
 > Edits to lang/Makefile and Makefile may be needed  
 > These edits are  
 > [lang/Makefile](/lang/Makefile)  
->Change in LDFLAGS "-L/opt/will/lib" - To "-L<libpath>" with <libpath>  
+>Change in LDFLAGS "-L/opt/will/lib" - To "-L\<libpath\>" with \<libpath\>  
 >   Being wherever libfl (Flex Library) is located  
 > [Makefile](/Makefile)  
 >Change DESTDIR to the directory you would like to install to (absolute path)   
