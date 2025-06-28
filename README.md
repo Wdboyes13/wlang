@@ -26,10 +26,10 @@ sudo make install # Installs
 Usage: wlang \[Input.wlang\] \[Output\] \[Options\]  
 Normal behavior: Generate IR, Transpile to C, Compile  
 Options:  
-&emsp;-h, --help     Show this help message  
-&emsp;-c             Only IR Generation and Transpiling to C  
-&emsp;-i             Only IR Generation  
-&emsp;-v, --version  Show program info  
+&emsp;-h, --help&emsp;Show this help message  
+&emsp;-c&emsp;Only IR Generation and Transpiling to C  
+&emsp;-i&emsp;Only IR Generation  
+&emsp;-v, --version&emsp;Show program info  
 
 # License
 WLang - A Simple Programming Languge
