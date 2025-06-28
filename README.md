@@ -15,6 +15,7 @@ __For an example check test.wlang__
 >Change DESTDIR to the directory you would like to install to (absolute path)   
    
 To build `flex` `bison` and a C Compiler are needed  
+As well as a POSIX Comptible OS (Most OSes other than Windows)
 To do building + installing run this   
 ```sh
 make # Builds
