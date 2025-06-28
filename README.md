@@ -9,10 +9,10 @@ __For an example check test.wlang__
 > Edits to lang/Makefile and Makefile may be needed  
 > These edits are  
 > [lang/Makefile](/lang/Makefile)  
->&emsp;Change in LDFLAGS "-L/opt/will/lib" - To "-L\<libpath\>" with \<libpath\>  
->&emsp;Being wherever libfl (Flex Library) is located  
+>&emsp;&ensp;Change in LDFLAGS "-L/opt/will/lib" - To "-L\<libpath\>" with \<libpath\>  
+>&emsp;&ensp;Being wherever libfl (Flex Library) is located  
 > [Makefile](/Makefile)  
->&emsp;Change DESTDIR to the directory you would like to install to (absolute path)   
+>&emsp;&ensp;Change DESTDIR to the directory you would like to install to (absolute path)   
    
 To build `flex` `bison` and a C Compiler are needed  
 As well as a POSIX Comptible OS (Most OSes other than Windows)  
