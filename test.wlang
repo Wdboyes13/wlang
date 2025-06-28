@@ -1,0 +1,8 @@
+clear;
+var = 1 + 2.3;
+x = var * 3;
+var = x / 2;
+print x;
+print var;
+print "Test";
+exit;
