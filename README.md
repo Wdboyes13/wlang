@@ -5,7 +5,7 @@ __For an example check test.wlang__
 
 # Usage
 ## Building
->[!NOTICE]
+>[!IMPORTANT]
 > Edits to lang/Makefile and Makefile may be needed  
 > These edits are  
 > [lang/Makefile](/lang/Makefile)  
