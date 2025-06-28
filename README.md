@@ -23,7 +23,6 @@ sudo make install # Installs
 ```  
 
 ## Command usage  
-<pre>
 ```
 Usage: wlang [Input.wlang] [Output] [Options]
 Normal behavior: Generate IR, Transpile to C, Compile
@@ -34,7 +33,6 @@ Options:
   -i                Only IR Generation
   -v, --version     Show program info
 ```
-</pre>
 
 # License
 WLang - A Simple Programming Languge
