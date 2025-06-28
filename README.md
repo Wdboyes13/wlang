@@ -9,10 +9,10 @@ __For an example check test.wlang__
 > Edits to lang/Makefile and Makefile may be needed  
 > These edits are  
 > [lang/Makefile](/lang/Makefile)  
->Change in LDFLAGS "-L/opt/will/lib" - To "-L\<libpath\>" with \<libpath\>  
->   Being wherever libfl (Flex Library) is located  
+>&emsp;Change in LDFLAGS "-L/opt/will/lib" - To "-L\<libpath\>" with \<libpath\>  
+>&emsp;Being wherever libfl (Flex Library) is located  
 > [Makefile](/Makefile)  
->Change DESTDIR to the directory you would like to install to (absolute path)   
+>&emsp;Change DESTDIR to the directory you would like to install to (absolute path)   
    
 To build `flex` `bison` and a C Compiler are needed  
 As well as a POSIX Comptible OS (Most OSes other than Windows)  
@@ -26,10 +26,10 @@ sudo make install # Installs
 Usage: wlang \[Input.wlang\] \[Output\] \[Options\]  
 Normal behavior: Generate IR, Transpile to C, Compile  
 Options:  
-  -h, --help     Show this help message  
-  -c             Only IR Generation and Transpiling to C  
-  -i             Only IR Generation  
-  -v, --version  Show program info  
+&emsp;-h, --help     Show this help message  
+&emsp;-c             Only IR Generation and Transpiling to C  
+&emsp;-i             Only IR Generation  
+&emsp;-v, --version  Show program info  
 
 # License
 WLang - A Simple Programming Languge
