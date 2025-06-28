@@ -27,5 +27,5 @@ git: clean
 	git add .
 	git commit -m "Updated: $(shell date)"
 	git push origin main
-	
-.PHONY: clean all install
+
+.PHONY: clean all install git
