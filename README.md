@@ -6,14 +6,14 @@ __For an example check test.wlang__
 # Usage
 ## Building
 >[!NOTICE]
-> Edits to lang/Makefile and Makefile may be needed
-> These edits are
-> [lang/Makefile](/lang/Makefile)
->   Change in LDFLAGS "-L/opt/will/lib" - To "-L<libpath>" with <libpath>
->   Being wherever libfl (Flex Library) is located
-> [Makefile](/Makefile)
->   Change DESTDIR to the directory you would like to install to (absolute path)
-  
+> Edits to lang/Makefile and Makefile may be needed  
+> These edits are  
+> [lang/Makefile](/lang/Makefile)  
+>   Change in LDFLAGS "-L/opt/will/lib" - To "-L<libpath>" with <libpath>  
+>   Being wherever libfl (Flex Library) is located  
+> [Makefile](/Makefile)  
+>   Change DESTDIR to the directory you would like to install to (absolute path)   
+   
 To build `flex` `bison` and a C Compiler are needed  
 To do building + installing run this   
 ```sh
