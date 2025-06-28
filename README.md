@@ -27,8 +27,8 @@ Usage: wlang \[Input.wlang\] \[Output\] \[Options\]
 Normal behavior: Generate IR, Transpile to C, Compile  
 Options:  
 &emsp;&emsp;-h, --help&emsp;&emsp;&emsp;Show this help message  
-&emsp;&emsp;-c&emsp;&emsp;&emsp;&emsp;&emsp;Only IR Generation and Transpiling to C  
-&emsp;&emsp;-i&emsp;&emsp;&emsp;&emsp;&emsp;Only IR Generation  
+&emsp;&emsp;-c&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Only IR Generation and Transpiling to C  
+&emsp;&emsp;-i&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Only IR Generation  
 &emsp;&emsp;-v, --version&emsp;&emsp;&emsp;Show program info  
 
 # License
