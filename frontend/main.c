@@ -88,7 +88,7 @@ int main(int argc, char *argv[]) {
         printf("  -h, --help     Show this help message\n");
         printf("  -c             Only IR Generation and Transpiling to C\n");
         printf("  -i             Only IR Generation\n");
-        printf("  -v, --version  Show program info");
+        printf("  -v, --version  Show program info\n");
         return 0;
     }
     if (strcmp(argv[1], "-v") == 0 || strcmp(argv[1], "--version") == 0) {
