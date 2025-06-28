@@ -1,5 +1,5 @@
 # WLang
-__This is a programing language i made for fun__
+__This is a programing language i made for fun__  
 __This programming language is currently undocumented__  
 __For an example check test.wlang__
 
@@ -9,10 +9,10 @@ __For an example check test.wlang__
 > Edits to lang/Makefile and Makefile may be needed  
 > These edits are  
 > [lang/Makefile](/lang/Makefile)  
->   Change in LDFLAGS "-L/opt/will/lib" - To "-L<libpath>" with <libpath>  
+>Change in LDFLAGS "-L/opt/will/lib" - To "-L<libpath>" with <libpath>  
 >   Being wherever libfl (Flex Library) is located  
 > [Makefile](/Makefile)  
->   Change DESTDIR to the directory you would like to install to (absolute path)   
+>Change DESTDIR to the directory you would like to install to (absolute path)   
    
 To build `flex` `bison` and a C Compiler are needed  
 To do building + installing run this   
@@ -22,13 +22,13 @@ sudo make install # Installs
 ```  
 
 ## Command usage  
-Usage: wlang \[Input.wlang\] \[Output\] \[Options\]
-Normal behavior: Generate IR, Transpile to C, Compile
-Options:
-  -h, --help     Show this help message
-  -c             Only IR Generation and Transpiling to C
-  -i             Only IR Generation
-  -v, --version  Show program info
+Usage: wlang \[Input.wlang\] \[Output\] \[Options\]  
+Normal behavior: Generate IR, Transpile to C, Compile  
+Options:  
+  -h, --help     Show this help message  
+  -c             Only IR Generation and Transpiling to C  
+  -i             Only IR Generation  
+  -v, --version  Show program info  
 
 # License
 WLang - A Simple Programming Languge
